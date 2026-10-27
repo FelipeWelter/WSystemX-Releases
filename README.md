@@ -4,7 +4,7 @@ Este repositório público existe exclusivamente para distribuir releases oficia
 
 ## Política de distribuição
 
-- Este repositório não contém código-fonte nem workflows de build.
+- Este repositório não contém código-fonte nem workflows de build, e o GitHub Actions está desativado para impedir compilações independentes.
 - Quando habilitado após a configuração de credenciais e chaves, o workflow executado no repositório privado compila uma vez a partir de uma tag validada e prepara drafts em ambos os repositórios.
 - O pacote, a tag e a proveniência são conferidos no repositório privado antes da cópia. Os bytes no draft público devem corresponder exatamente aos do build privado e ao draft privado.
 - Cada release oficial contém o instalador, `WSystemX-<tag>.release.json`, `WSystemX-<tag>.release.sig` e `SHA256SUMS.txt`.
