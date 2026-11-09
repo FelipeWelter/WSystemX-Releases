@@ -1,43 +1,31 @@
-# WSystemX — releases oficiais
+# WSystemX v0.2.8.1 — Estável
 
-Este repositório público existe exclusivamente para distribuir releases do WSystemX. A fonte única de código e de compilação é o repositório privado FelipeWelter/PC-Toolkit. Código-fonte, histórico Git e credenciais privados não fazem parte desta distribuição.
+Distribuição oficial do WSystemX, desenvolvido por **Felipe Welter**, para **Windows 10/11 x64**. Este repositório contém apenas documentação e arquivos de distribuição. O código-fonte permanece privado em FelipeWelter/PC-Toolkit.
 
-## Downloads e estado atual
+## Downloads
 
-A distribuição pública disponível é a [v0.2.8 RC2](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.2.8-rc.2), classificada como pré-lançamento. Consulte suas notas antes de instalar.
+- [Release WSystemX v0.2.8.1 - Estável](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.2.8.1)
+- [WSystemX-v0.2.8.1-win-x64-Setup.exe](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.2.8.1/WSystemX-v0.2.8.1-win-x64-Setup.exe)
+- [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.2.8.1/SHA256SUMS.txt)
 
-A v0.2.8 está marcada como estável no repositório privado, mas sua publicação estável neste repositório permanece pendente de alinhamento da versão do produto, validação do novo pacote e atendimento à política de proveniência assinada. Não existe release pública estável v0.2.8 nesta revisão de 09/11/2026.
+A distribuição atual utiliza somente o instalador. Confira o SHA-256 antes de executar e siga o assistente de instalação. O runtime .NET está incluído. A instalação exige autorização de administrador do Windows.
 
-## Instalação e limitações conhecidas
+## Funcionalidades e atualização
 
-- Compatibilidade declarada: Windows 10 e Windows 11 x64. A disponibilidade de sensores e informações de dispositivos depende do hardware e dos drivers.
-- O instalador disponível não possui assinatura Authenticode. O Windows poderá apresentar avisos de editor desconhecido ou do SmartScreen. Não desative as proteções do Windows.
-- A distribuição manual sem Authenticode é uma limitação aceita pelo proprietário. Isso não comprova autenticidade criptográfica nem certificação de segurança.
-- A versão portátil não está disponível devido a uma pendência de segurança na execução elevada a partir de diretório gravável.
-- A instalação automática de atualizações permanece desabilitada. Consultas de novas versões continuam habilitadas por padrão e não instalam atualizações automaticamente.
-- Preserve uma cópia das configurações e do histórico antes de atualizar. Migração de instalações legadas por usuário exige procedimento assistido e permanece sem homologação completa com pacote legado real.
+Dashboard, inventário, sensores, diagnósticos SMART, rede, Wi-Fi, Bluetooth, eventos, drivers, Defender, Firewall, manutenção controlada, relatórios e histórico local. A disponibilidade de informações depende do hardware e dos drivers.
 
-## Política de distribuição
+Na v0.2.8.1, o atualizador consulta as releases estáveis deste repositório, ignora pré-versões e apresenta notas e progresso do download. O instalador é conferido por tamanho e SHA-256. A instalação exige confirmação explícita; o aplicativo encerra suas operações e um auxiliar abre o instalador externo, sem instalação silenciosa.
 
-- Este repositório não contém código-fonte nem workflows de compilação.
-- Compilações e verificações devem ocorrer exclusivamente no repositório privado, a partir da origem aprovada.
-- O conjunto exigido para novas releases oficiais é: instalador WSystemX para Windows x64, `WSystemX-<tag>.release.json`, `WSystemX-<tag>.release.sig` e `SHA256SUMS.txt`.
-- A proveniência assinada deve vincular versão, nome, tamanho e SHA-256 do pacote ao commit privado de origem. A exigência permanece vigente.
-- O nome da tag pública deve corresponder à tag privada. Nenhum objeto Git privado deve ser copiado para este repositório.
-- O workflow de sincronização prepara rascunhos; a publicação depende das validações e da autorização aplicável.
-- Hashes SHA-256 conferem integridade dos bytes. Publicados no mesmo canal do instalador, não comprovam sozinhos a identidade do desenvolvedor.
-- O pipeline definitivo de assinatura permanece bloqueado. A aceitação da ausência de Authenticode não dispensa a proveniência assinada nem autoriza contornar verificações.
+Configurações e histórico existentes em `%LOCALAPPDATA%\PCToolkit` ficam fora dos arquivos substituídos. Versões antigas com o atualizador bloqueado precisam instalar a v0.2.8.1 pelo link acima.
 
-## Distribuição histórica
+## Estado da distribuição
 
-A RC2 existente contém o instalador, `SHA256SUMS.txt` e `PROVENANCE.txt`. Esse arquivo de texto não substitui os arquivos de proveniência criptograficamente assinada exigidos pela política para novas releases.
+**Versão publicada sem testes funcionais, conforme determinação do proprietário. Validação manual pendente.**
 
-O instalador RC2 existente possui o SHA-256 registrado nos metadados do GitHub:
+Assinatura Authenticode, certificação de segurança e proveniência assinada foram adiadas para esta versão por decisão do proprietário. O fluxo utiliza HTTPS, origem oficial, SHA-256 e confirmação do usuário. As proteções do Windows, incluindo Defender, SmartScreen e UAC, permanecem habilitadas conforme a configuração do sistema. Hashes verificam integridade dos bytes; não equivalem a assinatura do desenvolvedor.
 
-```text
-8722205816f7823190b3b49b1e87e3bbca04d0da08ac907a1375cd7284442706
-```
+A tag pública é lógica e corresponde à versão privada. Nenhum código-fonte ou objeto do histórico Git privado é copiado para este repositório. As notas da release registram o commit e a compilação de origem. O instalador público contém os mesmos bytes produzidos no repositório privado.
 
-As notas históricas e os arquivos existentes foram preservados. Nenhuma nova release é anunciada por esta atualização do README.
+## Histórico
 
-Desenvolvedor: Felipe Welter.
+Releases anteriores, incluindo a v0.2.8 RC2, permanecem disponíveis com suas notas e arquivos originais. A política descrita acima se aplica à v0.2.8.1 e substitui os requisitos anteriores que condicionavam essa publicação à assinatura e homologação.
