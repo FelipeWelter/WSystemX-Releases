@@ -1,31 +1,70 @@
-# WSystemX v0.2.8.1 — Estável
+# WSystemX
 
-Distribuição oficial do WSystemX, desenvolvido por **Felipe Welter**, para **Windows 10/11 x64**. Este repositório contém apenas documentação e arquivos de distribuição. O código-fonte permanece privado em FelipeWelter/PC-Toolkit.
+**Diagnóstico, monitoramento e manutenção do Windows em um só lugar.**
 
-## Downloads
+Desenvolvido por **Felipe Welter**, o WSystemX é um aplicativo desktop para **Windows 10 e 11 (x64)**, construído com **C# / .NET 10 e WPF**.
 
-- [Release WSystemX v0.2.8.1 - Estável](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.2.8.1)
-- [WSystemX-v0.2.8.1-win-x64-Setup.exe](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.2.8.1/WSystemX-v0.2.8.1-win-x64-Setup.exe)
-- [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.2.8.1/SHA256SUMS.txt)
+Este é o **repositório público oficial de distribuição**. O código-fonte e o histórico de desenvolvimento permanecem no repositório privado `FelipeWelter/PC-Toolkit`.
 
-A distribuição atual utiliza somente o instalador. Confira o SHA-256 antes de executar e siga o assistente de instalação. O runtime .NET está incluído. A instalação exige autorização de administrador do Windows.
+## Versão atual
 
-## Funcionalidades e atualização
+**WSystemX v0.3.1 — Estável** · homologada pelo proprietário e publicada em 16/11/2026.
 
-Dashboard, inventário, sensores, diagnósticos SMART, rede, Wi-Fi, Bluetooth, eventos, drivers, Defender, Firewall, manutenção controlada, relatórios e histórico local. A disponibilidade de informações depende do hardware e dos drivers.
+[**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/WSystemX-v0.3.1-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.1) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/SHA256SUMS.txt)
 
-Na v0.2.8.1, o atualizador consulta as releases estáveis deste repositório, ignora pré-versões e apresenta notas e progresso do download. O instalador é conferido por tamanho e SHA-256. A instalação exige confirmação explícita; o aplicativo encerra suas operações e um auxiliar abre o instalador externo, sem instalação silenciosa.
+- **Arquivo:** `WSystemX-v0.3.1-win-x64-Setup.exe`
+- **Tamanho:** 61.554.734 bytes
+- **SHA-256:** `7dc8368545d0ddca08b885a09ed3322c725e505a5acfc9c779c14c95de0826fb`
+- **Distribuição:** instalador Windows x64; o runtime .NET é incluído no pacote.
 
-Configurações e histórico existentes em `%LOCALAPPDATA%\PCToolkit` ficam fora dos arquivos substituídos. Versões antigas com o atualizador bloqueado precisam instalar a v0.2.8.1 pelo link acima.
+## Principais recursos
 
-## Estado da distribuição
+| Área | Recursos |
+| --- | --- |
+| **Dashboard** | Visão geral de CPU, GPU, RAM, armazenamento, bateria e indicadores de saúde do computador. |
+| **Hardware** | Inventário, sensores, temperaturas e dados disponíveis dos componentes. |
+| **Jogos e FPS** | Monitoramento de FPS e frametime, histórico de sessões, executáveis cadastrados e overlay (OSD) personalizável. |
+| **Armazenamento** | Discos e volumes, utilização de espaço, consultas SMART e análise controlada de temporários. |
+| **Rede** | Adaptadores, Wi-Fi, Bluetooth, tráfego e ferramentas de diagnóstico de conectividade. |
+| **Windows** | Eventos, drivers, Windows Update, Microsoft Defender e Firewall. |
+| **Manutenção** | Monitoramento de processos e ferramentas de diagnóstico. |
+| **Histórico e relatórios** | Registros locais e exportações de informações coletadas. |
+| **Configurações** | Preferências de monitoramento, alertas, aparência, OSD, dados e atualizações. |
 
-**Versão publicada sem testes funcionais, conforme determinação do proprietário. Validação manual pendente.**
+A disponibilidade de sensores, RPM de ventoinhas, SMART, captura de FPS e outros dados depende do hardware, dos drivers, das permissões e dos recursos suportados pelo Windows. Uma leitura indisponível não equivale a um valor zero.
 
-Assinatura Authenticode, certificação de segurança e proveniência assinada foram adiadas para esta versão por decisão do proprietário. O fluxo utiliza HTTPS, origem oficial, SHA-256 e confirmação do usuário. As proteções do Windows, incluindo Defender, SmartScreen e UAC, permanecem habilitadas conforme a configuração do sistema. Hashes verificam integridade dos bytes; não equivalem a assinatura do desenvolvedor.
+## Instalação
 
-A tag pública é lógica e corresponde à versão privada. Nenhum código-fonte ou objeto do histórico Git privado é copiado para este repositório. As notas da release registram o commit e a compilação de origem. O instalador público contém os mesmos bytes produzidos no repositório privado.
+1. Baixe o instalador oficial na seção **Versão atual**.
+2. Opcionalmente, confira o SHA-256 com `Get-FileHash` no PowerShell.
+3. Execute o instalador e confirme as solicitações do Windows.
+4. Abra o WSystemX e configure suas preferências.
 
-## Histórico
+A instalação pode exigir privilégios de administrador. O Windows Defender, SmartScreen e UAC continuam aplicando suas proteções conforme as configurações do sistema.
 
-Releases anteriores, incluindo a v0.2.8 RC2, permanecem disponíveis com suas notas e arquivos originais. A política descrita acima se aplica à v0.2.8.1 e substitui os requisitos anteriores que condicionavam essa publicação à assinatura e homologação.
+## Atualizações: Estável e Beta
+
+O WSystemX consulta as releases deste repositório e permite escolher o canal de atualização:
+
+- **Estável:** versões finais publicadas, sem incluir pré-lançamentos.
+- **Beta:** versões candidatas disponíveis para testes, além das versões finais elegíveis.
+
+O atualizador verifica a origem HTTPS, o tamanho e o **SHA-256** do instalador. A instalação requer confirmação do usuário; não é silenciosa. As preferências e o histórico local são mantidos fora dos arquivos de instalação, em `%LOCALAPPDATA%\PCToolkit`.
+
+**Importante:** a compatibilidade do fluxo de atualização foi verificada, mas isso não substitui a recomendação de manter backup dos dados antes de grandes mudanças de versão.
+
+## Segurança e integridade
+
+O instalador **v0.3.1 não possui assinatura digital Authenticode**. Essa funcionalidade foi adiada; portanto, o Windows pode apresentar avisos de reputação ou confirmação. Não desative as proteções do Windows para instalar o aplicativo.
+
+O SHA-256 permite verificar a integridade dos bytes baixados, mas **não substitui uma assinatura digital que autentique o desenvolvedor**. Baixe sempre pelo repositório oficial e confira os arquivos publicados.
+
+Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/BUILD-INFO.json) · [DEPENDENCIES.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/DEPENDENCIES.json).
+
+## Histórico de versões
+
+As versões anteriores e os pré-lançamentos permanecem disponíveis na [página de Releases](https://github.com/FelipeWelter/WSystemX-Releases/releases). O repositório público hospeda os **artefatos de distribuição**, e não o código-fonte privado do aplicativo.
+
+---
+
+**Desenvolvido por Felipe Welter** · [GitHub](https://github.com/FelipeWelter)
