@@ -53,6 +53,8 @@ A disponibilidade de sensores, RPM de ventoinhas, SMART, captura de FPS e outros
 
 A instalação pode exigir privilégios de administrador. O Windows Defender, SmartScreen e UAC continuam aplicando suas proteções conforme as configurações do sistema.
 
+A **[v0.3.2-rc.5 Beta](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.2-rc.5)** reúne as correções V032-006 a V032-014 e está disponível para homologação pelo canal Beta. A v0.3.1 continua sendo a versão estável.
+
 ## Atualizações: Estável e Beta
 
 O WSystemX consulta as releases deste repositório e permite escolher o canal de atualização:
