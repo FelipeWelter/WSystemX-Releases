@@ -8,16 +8,16 @@ Este é o **repositório público oficial de distribuição**. O código-fonte e
 
 ## Versão atual
 
-**WSystemX v0.3.1 — Estável** · homologada pelo proprietário e publicada em 16/11/2026.
+**WSystemX v0.3.3 — Estável**
 
-[**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/WSystemX-v0.3.1-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.1) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/SHA256SUMS.txt)
+[**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/WSystemX-v0.3.3-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.3) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/SHA256SUMS.txt)
 
 <details>
 <summary>Detalhes do instalador e verificação SHA-256</summary>
 
-- **Arquivo:** `WSystemX-v0.3.1-win-x64-Setup.exe`
-- **Tamanho:** 61.554.734 bytes
-- **SHA-256:** `7dc8368545d0ddca08b885a09ed3322c725e505a5acfc9c779c14c95de0826fb`
+- **Arquivo:** `WSystemX-v0.3.3-win-x64-Setup.exe`
+- **Tamanho:** 61.533.091 bytes
+- **SHA-256:** `c3c84ca4c1feccb81f56303e55cc6e552154dc1e0387cc93387c4904c5bf30c8`
 - **Distribuição:** instalador Windows x64; o runtime .NET é incluído no pacote.
 
 </details>
@@ -70,11 +70,11 @@ O atualizador verifica a origem HTTPS, o tamanho e o **SHA-256** do instalador. 
 
 ## Segurança e integridade
 
-O instalador **v0.3.1 não possui assinatura digital Authenticode**. Essa funcionalidade foi adiada; portanto, o Windows pode apresentar avisos de reputação ou confirmação. Não desative as proteções do Windows para instalar o aplicativo.
+O instalador **v0.3.3 não possui assinatura digital Authenticode**. Essa funcionalidade foi adiada; portanto, o Windows pode apresentar avisos de reputação ou confirmação. Não desative as proteções do Windows para instalar o aplicativo.
 
 O SHA-256 permite verificar a integridade dos bytes baixados, mas **não substitui uma assinatura digital que autentique o desenvolvedor**. Baixe sempre pelo repositório oficial e confira os arquivos publicados.
 
-Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/BUILD-INFO.json) · [DEPENDENCIES.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/DEPENDENCIES.json).
+Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/BUILD-INFO.json) · [DEPENDENCIES.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/DEPENDENCIES.json).
 
 ## Histórico de versões
 
