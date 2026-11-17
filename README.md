@@ -1,6 +1,6 @@
 # WSystemX
 
-**Diagnóstico, monitoramento e manutenção do Windows em um só lugar.**
+**Monitore o hardware, diagnostique o Windows e analise o desempenho dos seus jogos.**
 
 Desenvolvido por **Felipe Welter**, o WSystemX é um aplicativo desktop para **Windows 10 e 11 (x64)**, construído com **C# / .NET 10 e WPF**.
 
@@ -12,10 +12,21 @@ Este é o **repositório público oficial de distribuição**. O código-fonte e
 
 [**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/WSystemX-v0.3.1-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.1) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.1/SHA256SUMS.txt)
 
+<details>
+<summary>Detalhes do instalador e verificação SHA-256</summary>
+
 - **Arquivo:** `WSystemX-v0.3.1-win-x64-Setup.exe`
 - **Tamanho:** 61.554.734 bytes
 - **SHA-256:** `7dc8368545d0ddca08b885a09ed3322c725e505a5acfc9c779c14c95de0826fb`
 - **Distribuição:** instalador Windows x64; o runtime .NET é incluído no pacote.
+
+</details>
+
+## WSystemX em uso
+
+- **Visão geral.** Consulte as temperaturas de CPU e GPU, a utilização da memória e o espaço ocupado no disco pelo Dashboard.
+- **Desempenho em jogos.** Abra uma sessão gravada para analisar gráficos de FPS e frametime, identificar picos e consultar as métricas de 1% low e 0,1% low.
+- **Monitoramento em tempo real.** Acompanhe os últimos 60 segundos de temperatura e utilização de CPU e GPU e o histórico de uso da RAM.
 
 ## Principais recursos
 
