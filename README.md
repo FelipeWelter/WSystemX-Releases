@@ -76,6 +76,14 @@ Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/W
 
 As versões anteriores e os pré-lançamentos permanecem disponíveis na [página de Releases](https://github.com/FelipeWelter/WSystemX-Releases/releases). O repositório público hospeda os **artefatos de distribuição**, e não o código-fonte privado do aplicativo.
 
----
+<img width="1920" height="1080" alt="Captura de tela 2026-11-16 214604" src="https://github.com/user-attachments/assets/a817215b-269c-42a2-8bd9-a339b224d1c5" />
+
+<img width="1920" height="1080" alt="Captura de tela 2026-11-16 204658" src="https://github.com/user-attachments/assets/5a1e0f60-363f-4a45-8365-4f5bda6a901c" />
+
+<img width="1920" height="1080" alt="Captura de tela 2026-11-16 204717" src="https://github.com/user-attachments/assets/4a850238-86bd-43ec-86fb-c62fcc8cfc13" />
+
+<img width="1920" height="1080" alt="Captura de tela 2026-11-16 214704" src="https://github.com/user-attachments/assets/b998df57-32ad-4420-9af9-dc4e1780d6ca" />
+
+
 
 **Desenvolvido por Felipe Welter** · [GitHub](https://github.com/FelipeWelter)
