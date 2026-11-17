@@ -24,6 +24,10 @@ Este é o **repositório público oficial de distribuição**. O código-fonte e
 
 ## WSystemX em uso
 
+![Dashboard do WSystemX com a Central de saúde e indicadores de CPU, GPU, RAM e armazenamento](docs/images/dashboard-v0.3.3-rc.1.png)
+
+*Dashboard capturado na versão candidata v0.3.3-rc.1.*
+
 - **Visão geral.** Consulte as temperaturas de CPU e GPU, a utilização da memória e o espaço ocupado no disco pelo Dashboard.
 - **Desempenho em jogos.** Abra uma sessão gravada para analisar gráficos de FPS e frametime, identificar picos e consultar as métricas de 1% low e 0,1% low.
 - **Monitoramento em tempo real.** Acompanhe os últimos 60 segundos de temperatura e utilização de CPU e GPU e o histórico de uso da RAM.
