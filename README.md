@@ -8,16 +8,16 @@ Este é o **repositório público oficial de distribuição**. O código-fonte e
 
 ## Versão atual
 
-**WSystemX v0.3.3 — Estável**
+**WSystemX v0.3.5 — Estável**
 
-[**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/WSystemX-v0.3.3-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.3) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/SHA256SUMS.txt)
+[**Baixar instalador Windows x64**](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.5/WSystemX-v0.3.5-win-x64-Setup.exe) · [Notas e arquivos da versão](https://github.com/FelipeWelter/WSystemX-Releases/releases/tag/v0.3.5) · [SHA256SUMS.txt](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.5/SHA256SUMS.txt)
 
 <details>
 <summary>Detalhes do instalador e verificação SHA-256</summary>
 
-- **Arquivo:** `WSystemX-v0.3.3-win-x64-Setup.exe`
-- **Tamanho:** 61.533.091 bytes
-- **SHA-256:** `c3c84ca4c1feccb81f56303e55cc6e552154dc1e0387cc93387c4904c5bf30c8`
+- **Arquivo:** `WSystemX-v0.3.5-win-x64-Setup.exe`
+- **Tamanho:** 61.601.894 bytes
+- **SHA-256:** `531260a098b067a261db721bc02fd61f3ff9b7f7d4138fd057319b0c4532a32d`
 - **Distribuição:** instalador Windows x64; o runtime .NET é incluído no pacote.
 
 </details>
@@ -44,6 +44,8 @@ Este é o **repositório público oficial de distribuição**. O código-fonte e
 | **Windows** | Eventos, drivers, Windows Update, Microsoft Defender e Firewall. |
 | **Manutenção** | Monitoramento de processos e ferramentas de diagnóstico. |
 | **Histórico e relatórios** | Registros locais e exportações de informações coletadas. |
+| **Central opcional** | Conexão por token protegido, envio de CPU/RAM/discos e IPs locais; funciona enquanto o aplicativo estiver aberto. |
+| **Diagnóstico do atualizador** | Etapa, destino sem parâmetros, causas internas e Copiar diagnóstico, mantendo as validações de certificados e integridade. |
 | **Configurações** | Preferências de monitoramento, alertas, aparência, OSD, dados e atualizações. |
 
 A disponibilidade de sensores, RPM de ventoinhas, SMART, captura de FPS e outros dados depende do hardware, dos drivers, das permissões e dos recursos suportados pelo Windows. Uma leitura indisponível não equivale a um valor zero.
@@ -70,11 +72,11 @@ O atualizador verifica a origem HTTPS, o tamanho e o **SHA-256** do instalador. 
 
 ## Segurança e integridade
 
-O instalador **v0.3.3 não possui assinatura digital Authenticode**. Essa funcionalidade foi adiada; portanto, o Windows pode apresentar avisos de reputação ou confirmação. Não desative as proteções do Windows para instalar o aplicativo.
+O instalador **v0.3.5 não possui assinatura digital Authenticode**. Essa funcionalidade foi adiada; portanto, o Windows pode apresentar avisos de reputação ou confirmação. Não desative as proteções do Windows para instalar o aplicativo.
 
 O SHA-256 permite verificar a integridade dos bytes baixados, mas **não substitui uma assinatura digital que autentique o desenvolvedor**. Baixe sempre pelo repositório oficial e confira os arquivos publicados.
 
-Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/BUILD-INFO.json) · [DEPENDENCIES.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.3/DEPENDENCIES.json).
+Metadados da distribuição: [BUILD-INFO.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.5/BUILD-INFO.json) · [DEPENDENCIES.json](https://github.com/FelipeWelter/WSystemX-Releases/releases/download/v0.3.5/DEPENDENCIES.json).
 
 ## Histórico de versões
 
